@@ -42,24 +42,43 @@ p {
   min-height: 1px;
   margin: 0 2% 20px;
 }
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .container {
     width:auto;
   }
   .one-half img {
     max-width: 80%;
     float: left;
-    margin: 0 2% 8px;
+    margin-right: auto;
+  }
+  .one-half ul {
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 0;
+    padding-right: 0;
   }
   .one-half {
-    width: 46%;
-    margin: 0 2% 8px;
+    width: 70%;
+    margin: 0 2% 4px;
   }
   .one-third {
     width: 29.33333%;
   }
   .one-fourth {
     width: 21%;
+  }
+  header .hero img {
+    display: block;
+    margin: 3em auto 0;
+    max-width: 90%;
+  }
+  header .hero h1 {
+    margin: 20px 0 0;
+  }
+  header nav ul > li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 4px;
   }
 }
 @media (min-width: 768px) {
