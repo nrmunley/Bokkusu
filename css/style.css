@@ -42,7 +42,27 @@ p {
   min-height: 1px;
   margin: 0 2% 20px;
 }
-
+@media (min-width: 320px) {
+  .container {
+    width:auto;
+  }
+  .one-half img {
+    max-width: 80%;
+    float: left;
+    margin: 0 2% 8px;
+  }
+  .one-half {
+    width: 46%;
+    margin: 0 2% 8px;
+    padding: 0;
+  }
+  .one-third {
+    width: 29.33333%;
+  }
+  .one-fourth {
+    width: 21%;
+  }
+}
 @media (min-width: 768px) {
   .container {
     width: 750px;
