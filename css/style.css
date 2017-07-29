@@ -35,6 +35,13 @@ p {
 .container:after {
   clear: both;
 }
+.drop {
+  width: 96%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  margin: 20 2%;
+}
 .one-half, .one-third, .one-fourth {
   width: 96%;
   float: left;
@@ -65,6 +72,9 @@ p {
   .one-fourth {
     width: 21%;
   }
+  .drop {
+    width:21%;
+  }
   header .hero img {
     display: block;
     margin: 3em auto 0;
@@ -93,6 +103,9 @@ p {
     width: 29.33333%;
   }
   .one-fourth {
+    width: 21%;
+  }
+  .drop {
     width: 21%;
   }
 }
@@ -279,6 +292,9 @@ header .hero img {
 }
 .testimonials ul li {
   list-style-type: none;
+}
+.drop {
+  margin-top: 20px;
 }
 .testimonials blockquote {
   color:#FFFFFF;
