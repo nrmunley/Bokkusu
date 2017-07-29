@@ -290,11 +290,11 @@ header .hero img {
 .testimonials h2 {
   color:#33617F;
 }
+.drop {
+  margin: 20px 2%;
+}
 .testimonials ul li {
   list-style-type: none;
-}
-.drop {
-  margin-top: 20px;
 }
 .testimonials blockquote {
   color:#FFFFFF;
