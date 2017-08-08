@@ -449,6 +449,10 @@ footer .logo {
   text-align: center;
   margin-right:8px;
 }
+.left-nav .items .active {
+  background-color: #E2E2E2;
+  color: #004D7F;
+}
 .left-nav .items ul li:active {
   background-color: #E2E2E2;
 }
