@@ -66,15 +66,6 @@ p {
   .one-half {
     width: 46%;
   }
-  .one-third {
-    width: 29.33333%;
-  }
-  .one-fourth {
-    width: 21%;
-  }
-  .drop {
-    width:21%;
-  }
   header .hero img {
     display: block;
     margin: 3em auto 0;
@@ -282,6 +273,7 @@ header .hero img {
    line-height: 15px;
    font-style:italic;
  }
+
  /* TESTIMONIALS */
 .testimonials {
   padding:4em 0;
@@ -384,6 +376,24 @@ footer .logo {
   margin: 0 auto;
   display: block;
 }
+@media (min-width: 320px) {
+  footer p, footer nav ul{
+    padding: 1em 0;
+    text-align: center;
+  }
+  footer p {
+    margin: auto;
+  }
+  footer .logo {
+    display: none;
+    padding: 1em 0;
+  }
+  footer .logo-symbol {
+    display: block;
+    float: right;
+    padding: 1em 0;
+  }
+}
 @media (min-width: 992px) {
   footer {
     background-color: #009AFF;
@@ -392,13 +402,14 @@ footer .logo {
   }
   footer p, footer nav ul{
     padding: 2em 0;
-    text-align: left;
+    text-align: center;
   }
   footer .right-footer-block {
     background-color: #009AFF;
   }
   footer .logo{
     padding: 2em 0 2em 1.5em;
+    display: block;
   }
 }
 /* DASHBOARD */
